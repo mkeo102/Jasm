@@ -663,7 +663,6 @@ public class SampleCompilerTest {
 	    }
 
         @Test
-        @Disabled
         void arrayObjectMergeOnParameter() throws Throwable {
             TestArgument arg = TestArgument.fromName("Example-array-object-merge-on-parameter.jasm");
             String source = arg.source.get();
